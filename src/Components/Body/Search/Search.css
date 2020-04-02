@@ -1,0 +1,37 @@
+.search {
+    height: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    border-bottom: 2px solid #E3E3E3;
+}
+.searchForm {
+    height: 70%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.formInput {
+    height: 100%;
+    width: 80%;
+
+    font-family: 'Noto Serif JP', serif;
+    font-size: 16px;
+    padding-left: 20px;
+
+    border: none
+}
+::placeholder {
+    color: grey;
+}
+
+.formButton {
+    background: none;
+    border: none;
+
+    margin-right: 20px;
+}

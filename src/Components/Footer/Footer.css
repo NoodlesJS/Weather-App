@@ -1,0 +1,16 @@
+.footer {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer p {
+    margin-top: 0;
+}
+.badge {
+    height: 30px;
+    width: 30px;
+
+    margin: 0 10px;
+}

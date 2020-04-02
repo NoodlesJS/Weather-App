@@ -1,0 +1,10 @@
+.header {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header p {
+    font-size: 36px;
+    margin: 0
+}
