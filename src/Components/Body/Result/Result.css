@@ -6,3 +6,57 @@
     justify-content: center;
     align-items: center;
 }
+
+.result-card {
+    height: 90%;
+    width: 30%;
+    min-width: 300px;
+
+    border-radius: 10px;
+    /* background: #4B6EA5; */
+}
+
+.result-card-header {
+    height: 30%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result-card-header-1 {
+    margin-left: 20px;
+}
+.result-card-header-2 {
+    margin-right: 20px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+
+    margin: 0;
+}
+.temp {
+    font-size: 24px;
+    color: white;
+
+    margin: 0
+}
+.city {
+    font-size: 18px;
+    color: white;
+
+    margin: 0
+}
+
+.result-card-body {
+    height: 70%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

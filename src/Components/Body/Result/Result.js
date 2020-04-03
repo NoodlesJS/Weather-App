@@ -1,10 +1,24 @@
-import React, {Component} from 'react'
+import React from 'react'
 import './Result.css'
 
-export default function Result() {
+export default function Result(props) {
     return (
         <div className='result'>
-            <p>R</p>
+            <div className='result-card' style={{background: props.background}}>
+                <div className='result-card-header'>
+                    <div className='result-card-header-1'>
+                        <p className='title'>{props.weather}</p>
+                        <p className='temp'>{props.temp}</p>
+                        <p className='city'>{props.city}</p>
+                    </div>
+                    <div className='result-card-header-2'>
+                        <img src={props.icon} width='30' alt='icon of weather'/>
+                    </div>
+                </div>
+                <div className='result-card-body'>
+                    <img src={props.image} alt='a person'/>
+                </div>
+            </div>
         </div>
     )
 }
