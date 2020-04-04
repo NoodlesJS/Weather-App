@@ -36,7 +36,7 @@ class Body extends Component {
         const apiKey = '9d5015b2b613b8f2e53b93e3bd3272ff';
         const city = data;
 
-        const rawData = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`);
+        const rawData = await fetch(`//api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`);
         const weatherData = await rawData.json();
         
         this.handleError(weatherData);
