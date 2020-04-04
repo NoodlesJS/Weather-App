@@ -12,11 +12,12 @@ export default function Result(props) {
                         <p className='city'>{props.city}</p>
                     </div>
                     <div className='result-card-header-2'>
-                        <img src={props.icon} width='30' alt='icon of weather'/>
+                        <img src={props.icon} width='30'/>
                     </div>
                 </div>
                 <div className='result-card-body'>
-                    <img src={props.image} alt='a person'/>
+                    <p>{props.error}</p>
+                    <img src={props.image} />
                 </div>
             </div>
         </div>

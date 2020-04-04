@@ -60,3 +60,7 @@
     justify-content: center;
     align-items: center;
 }
+.result-card-body img {
+    min-width: 250px;
+    max-width: 400px;
+}
